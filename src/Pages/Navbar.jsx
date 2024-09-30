@@ -21,7 +21,16 @@ const Navbar = () => {
           <li><Link to="services" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Services</Link></li>
           <li><Link to="projects" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Projects</Link></li>
           <li><Link to="contact" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Contact</Link></li>
-          <li><Link to="information" smooth={true} duration={500} className="bg-red-500 px-4 py-2 rounded hover:bg-red-700 cursor-pointer">Learn more</Link></li>
+          <li>
+  <a 
+    href="https://docs.google.com/document/d/13D-GM4O99cpDk04Q_AFuUMjlg8dubG8l/edit?usp=drive_link&ouid=106593787579139479440&rtpof=true&sd=true" 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    className="bg-red-500 px-4 py-2 rounded hover:bg-red-700 cursor-pointer"
+  >
+    Learn more
+  </a>
+</li>
         </ul>
         <div className="hidden lg:flex space-x-4">
           <a href="" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-500"><FaFacebook size={24} /></a>

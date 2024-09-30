@@ -13,7 +13,7 @@ const services = [
     id: 2,
     title: 'RENEWABLE ENERGY',
     description: 'Harnessing renewable sources like wind and solar for electricity reduces environmental impact...',
-    images: ['/image2.jpeg', '/renewable-alternate.png', '/renewable-additional1.png', '/renewable-additional2.png'],
+    images: ['/image7.jpeg', '/renewable-alternate.png', '/renewable-additional1.png', '/renewable-additional2.png'],
     icon: <FaSolarPanel size={24} className="text-green-500 mb-2" />,
   },
   {
